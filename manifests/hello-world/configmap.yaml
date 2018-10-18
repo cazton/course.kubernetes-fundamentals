@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-world-config
+data:
+  city: Austin
+  state: TX
+  description: |  
+    This is some
+    Multiline content!
+    Be sure to indent.
+  zip: "78749" 
