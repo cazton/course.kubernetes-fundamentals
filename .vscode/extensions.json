@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "EditorConfig.editorconfig",
+        "PeterJausovec.vscode-docker",
+        "codezombiech.gitignore",
+        "eamodio.gitlens",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "pflannery.vscode-versionlens"
+    ]
+}
