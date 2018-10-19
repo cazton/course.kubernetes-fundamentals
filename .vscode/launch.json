@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Hello World",
+            "args": [],
+            "cwd": "${workspaceFolder}/apps/hello-world",
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "development",
+                "ASPNETCORE_URLS": "http://+:5051"
+            },
+            "internalConsoleOptions": "openOnSessionStart",
+            "launchBrowser": {
+                "args": "http://localhost:5051",
+                "enabled": true,
+                "linux": {
+                    "command": "xdg-open"
+                },
+                "osx": {
+                    "command": "open"
+                },
+                "windows": {
+                    "args": "/C start http://localhost:5051",
+                    "command": "cmd.exe"
+                }
+            },
+            "preLaunchTask": "build-hello-world",
+            "program": "${workspaceFolder}/apps/hello-world/bin/Debug/netcoreapp2.1/HelloWorld.dll",
+            "request": "launch",
+            "sourceFileMap": {
+                "/": "${workspaceFolder}"
+            },
+            "stopAtEntry": false,
+            "type": "coreclr"
+        },
+    ]
+}
